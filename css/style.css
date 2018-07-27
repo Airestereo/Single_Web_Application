@@ -77,12 +77,24 @@ p {
 .navbar-brand {
     padding: 9px 15px;
 }
-.navbar-brand img  {
+.navbar-brand img {
+    
      transition: all 1s;
     -moz-transition: all 1s;
     -o-transition: all 1s;
     -webkit-transition: all 1s;
 }
+.navbar-text {
+    text-align: middle;
+    color: #B5B5B5;
+    font-family: "Raleway", sans-serif;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+
 .navbar-default .navbar-nav > .active>a, 
 .navbar-default .navbar-nav > .active>a:hover,
 .navbar-default .navbar-nav > .active>a:focus {
@@ -109,7 +121,18 @@ p {
 
 }
 .logo {
-    padding-bottom: 50px;
+    
+    background-image: url("../images/logo.png"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 225px;
+    padding-bottom: 225px;
+    background: transparent;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+     -o-transition: all 1s;
+       
 }
 .header-text h1 {
     color: #fff;
@@ -179,9 +202,12 @@ p {
     color: #129CF3;
 }
 
+/*Comment this out
 .header-iphone img {
+   
     width: 100%;   
-}
+}*/
+
 
 /* ========= About Us ============= */
 .choose-us-wraper {
